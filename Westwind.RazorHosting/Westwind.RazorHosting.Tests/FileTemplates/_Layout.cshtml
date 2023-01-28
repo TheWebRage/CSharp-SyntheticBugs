@@ -1,0 +1,18 @@
+﻿@using System
+@inherits Westwind.RazorHosting.RazorTemplateFolderHost<RazorHostingTests.Person>
+<html>
+<body>
+    <h1>Layout Page Header</h1>
+    <hr />
+
+    @RenderBody()
+
+    <hr />
+    &copy; West Wind Technologies, 2010-@DateTime.Now.Year
+
+    
+
+    @RenderPartial("~/Footer_Partial.cshtml",Model)
+
+</body>
+</html>

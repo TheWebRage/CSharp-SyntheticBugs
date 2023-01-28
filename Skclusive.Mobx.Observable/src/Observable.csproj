@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>5.2.0</VersionPrefix>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
+    <AssemblyName>Skclusive.Mobx.Observable</AssemblyName>
+    <PackageId>Skclusive.Mobx.Observable</PackageId>
+    <RootNamespace>Skclusive.Mobx.Observable</RootNamespace>
+    <Authors>Skclusive</Authors>
+    <Company>Skclusive</Company>
+  </PropertyGroup>
+
+   <ItemGroup>
+    <PackageReference Include="Skclusive.Core.Collection" Version="5.2.0" />
+  </ItemGroup>
+  <!-- <ItemGroup>
+    <ProjectReference Include="..\..\Skclusive.Core.Collection\src\Collection.csproj" />
+  </ItemGroup> -->
+
+</Project>
